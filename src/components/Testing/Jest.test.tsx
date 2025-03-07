@@ -4,7 +4,7 @@ import App from '../../App';
 /*  describe(): テストグループを作成
     引数: ①テストスイートの説明 ②テストケース
 */
-describe("Test Login Component", () => {
+describe("Test App Component", () => {
     /*  test(): 個別のテストケースを定義 
         引数: ①テストケースの説明 ②テストの実行内容
     */
