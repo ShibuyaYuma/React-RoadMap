@@ -15,3 +15,23 @@ describe("Test App Component", () => {
         const button = await screen.findAllByRole("button")   // 指定された要素を検索
     })
 })
+
+/*
+babel.config.js:
+    module.exports = {
+        presets: [
+          '@babel/preset-env',
+          '@babel/preset-react',
+        ],
+    };
+
+package.json:
+    "jest": {
+        "transform": {
+          "^.+\\.jsx?$": "babel-jest"
+        },
+        "testMatch": [
+          "**/src/**/*.test.js"
+        ]
+    }
+*/
